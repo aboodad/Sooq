@@ -16,7 +16,7 @@ type Block = { id: string; kind: string; title: string; subtitle: string | null;
 type StoreRow = { id: string; name: string; slug: string; description: string | null; logo_url: string | null; rating_avg: number; rating_count: number; cities: { name_ar: string } | null };
 
 const SERVICES = [
-  { href: '/stores', label: 'كل المتاجر', hint: 'متاجر موثّقة', img: 'department-store', tint: '#EEF0FF' },
+  { href: '/trending', label: 'الترندات', hint: 'الأكثر رواجًا الآن', img: 'sparkles', tint: '#FFECE4' },
   { href: '/search?sort=discount', label: 'عروض اليوم', hint: 'خصومات حقيقية', img: 'label', tint: '#FFF0E3' },
   { href: '/c/coffee-honey', label: 'عسل وبن', hint: 'من المصدر', img: 'honey-pot', tint: '#FFF5DA' },
   { href: '/categories', label: 'كل الأقسام', hint: 'تصفّح الكل', img: 'package', tint: '#E6F6F6' },
